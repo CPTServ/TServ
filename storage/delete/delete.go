@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/ogios/simple-socket-server/server/normal"
-	"github.com/ogios/transfer-server/process"
-	"github.com/ogios/transfer-server/storage"
+	"github.com/CPTServ/TServ/process"
+	"github.com/CPTServ/TServ/storage"
 )
 
 func getID(conn *normal.Conn) (string, error) {

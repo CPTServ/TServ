@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ogios/transfer-server/config"
-	"github.com/ogios/transfer-server/log"
+	"github.com/CPTServ/TServ/config"
+	"github.com/CPTServ/TServ/log"
 )
 
 var (

@@ -5,8 +5,8 @@ import (
 
 	"github.com/ogios/simple-socket-server/server/normal"
 
-	"github.com/ogios/transfer-server/log"
-	"github.com/ogios/transfer-server/storage/save"
+	"github.com/CPTServ/TServ/log"
+	"github.com/CPTServ/TServ/storage/save"
 )
 
 func PushByte(conn *normal.Conn) error {

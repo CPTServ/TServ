@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/ogios/simple-socket-server/server/normal"
-	"github.com/ogios/transfer-server/log"
-	"github.com/ogios/transfer-server/process"
+	"github.com/CPTServ/TServ/log"
+	"github.com/CPTServ/TServ/process"
 )
 
 func save(conn *normal.Conn, f *os.File) (start int64, end int64, err error) {

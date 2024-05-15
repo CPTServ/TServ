@@ -6,9 +6,9 @@ import (
 
 	"github.com/ogios/simple-socket-server/server/normal"
 
-	"github.com/ogios/transfer-server/process"
-	"github.com/ogios/transfer-server/storage"
-	"github.com/ogios/transfer-server/storage/fetch"
+	"github.com/CPTServ/TServ/process"
+	"github.com/CPTServ/TServ/storage"
+	"github.com/CPTServ/TServ/storage/fetch"
 )
 
 var FETCH_MAX_FILENAME int = 255

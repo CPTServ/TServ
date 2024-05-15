@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/ogios/sutils"
-	"github.com/ogios/transfer-server/config"
-	"github.com/ogios/transfer-server/log"
+	"github.com/CPTServ/TServ/config"
+	"github.com/CPTServ/TServ/log"
 )
 
 type HostAddrs struct {

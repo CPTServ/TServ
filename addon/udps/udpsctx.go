@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ogios/transfer-server/log"
+	"github.com/CPTServ/TServ/log"
 )
 
 type MsgCtx struct {

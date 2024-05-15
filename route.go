@@ -6,10 +6,10 @@ import (
 
 	"github.com/ogios/simple-socket-server/server/normal"
 
-	"github.com/ogios/transfer-server/log"
-	"github.com/ogios/transfer-server/process/delete"
-	"github.com/ogios/transfer-server/process/fetch"
-	"github.com/ogios/transfer-server/process/push"
+	"github.com/CPTServ/TServ/log"
+	"github.com/CPTServ/TServ/process/delete"
+	"github.com/CPTServ/TServ/process/fetch"
+	"github.com/CPTServ/TServ/process/push"
 )
 
 func AddRouters(server *normal.Server) {

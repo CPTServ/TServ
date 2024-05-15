@@ -12,8 +12,8 @@ import (
 
 	"github.com/ogios/simple-socket-server/server/normal"
 
-	"github.com/ogios/transfer-server/log"
-	"github.com/ogios/transfer-server/storage"
+	"github.com/CPTServ/TServ/log"
+	"github.com/CPTServ/TServ/storage"
 )
 
 func SaveByte(conn *normal.Conn) error {

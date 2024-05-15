@@ -1,4 +1,4 @@
-module github.com/ogios/transfer-server
+module github.com/CPTServ/TServ
 
 go 1.21.0
 

@@ -3,8 +3,8 @@ package fetch
 import (
 	"fmt"
 
-	"github.com/ogios/transfer-server/log"
-	"github.com/ogios/transfer-server/storage"
+	"github.com/CPTServ/TServ/log"
+	"github.com/CPTServ/TServ/storage"
 )
 
 func fetchFromData(start, size int) ([]*storage.MetaData, int) {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ogios/transfer-server/storage"
+	"github.com/CPTServ/TServ/storage"
 )
 
 func searchFileFromMeta(id string) *storage.MetaData {

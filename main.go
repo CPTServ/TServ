@@ -3,10 +3,10 @@ package main
 import (
 	"github.com/ogios/simple-socket-server/server/normal"
 
-	"github.com/ogios/transfer-server/addon/proxy"
-	"github.com/ogios/transfer-server/addon/udps"
-	"github.com/ogios/transfer-server/config"
-	"github.com/ogios/transfer-server/log"
+	"github.com/CPTServ/TServ/addon/proxy"
+	"github.com/CPTServ/TServ/addon/udps"
+	"github.com/CPTServ/TServ/config"
+	"github.com/CPTServ/TServ/log"
 )
 
 func main() {

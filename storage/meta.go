@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ogios/transfer-server/addon/udps"
+	"github.com/CPTServ/TServ/addon/udps"
 )
 
 var (

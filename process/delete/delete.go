@@ -2,9 +2,9 @@ package delete
 
 import (
 	"github.com/ogios/simple-socket-server/server/normal"
-	"github.com/ogios/transfer-server/log"
-	"github.com/ogios/transfer-server/storage"
-	sd "github.com/ogios/transfer-server/storage/delete"
+	"github.com/CPTServ/TServ/log"
+	"github.com/CPTServ/TServ/storage"
+	sd "github.com/CPTServ/TServ/storage/delete"
 	"golang.org/x/exp/slog"
 )
 

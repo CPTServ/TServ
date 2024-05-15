@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ogios/transfer-server/config"
+	"github.com/CPTServ/TServ/config"
 	"golang.org/x/exp/slog"
 )
 

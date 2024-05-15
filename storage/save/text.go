@@ -6,8 +6,8 @@ import (
 
 	"github.com/ogios/simple-socket-server/server/normal"
 
-	"github.com/ogios/transfer-server/log"
-	"github.com/ogios/transfer-server/storage"
+	"github.com/CPTServ/TServ/log"
+	"github.com/CPTServ/TServ/storage"
 )
 
 var TEXT_FILE_MAX_SIZE int64 = 16 * 1024
