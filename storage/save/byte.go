@@ -3,6 +3,7 @@ package save
 import (
 	"fmt"
 	"io/fs"
+	"net/url"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -141,5 +142,5 @@ func getFilename(conn *normal.Conn) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	return string(name), nil
+	return url.QueryUnescape(string(name))
 }
